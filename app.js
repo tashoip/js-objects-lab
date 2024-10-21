@@ -132,8 +132,12 @@ After writing this method, call it and pass in a Pokemon object of your choice f
 
 Solve Exercise 10 here:
 */
+game.catchPokemon = (pokemonObj) => {
+    game.party.push(pokemonObj)
+}
+game.catchPokemon(pokemon[2]);
 
-
+console.log(game.party);
 /*
 Exercise 11
 1. Copy the `catchPokemon` method that you just wrote above, and paste it below. Modify it so that it also decreases the number of pokeballs in your inventory each time you catch a Pokémon.
