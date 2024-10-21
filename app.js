@@ -102,6 +102,11 @@ Exercise 8
 Solve Exercise 8 here:
 */
 
+console.log(game.party[0].name)
+console.log(game.party[1].name)
+console.log(game.party[2].name)
+console.log(game.party[3].name)
+
 /*
 Exercise 9
 1. Can you print out all the starter Pokémon from the `pokemon` array?
