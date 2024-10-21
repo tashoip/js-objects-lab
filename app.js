@@ -17,4 +17,20 @@ const game = {
       { name: "rare candy", quantity: 99 },
     ],
   }
-  
+//   console.dir(pokemon, { maxArrayLength: null })
+
+// console.log(game)
+
+/*
+Exercise 3
+1. Add a new property to the `game` object. Let's call it "difficulty".
+2. Choose a value for "difficulty" that you think fits the game. Ex: "Easy", "Med" or "Hard". How would you assign it?
+
+
+Solve Exercise 3 here:
+*/
+ game.difficulty = "Med"
+ console.log(game);
+
+ 
+
