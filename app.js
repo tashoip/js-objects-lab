@@ -115,7 +115,11 @@ Exercise 9
 
 Solve Exercise 9 here:
 */
-
+pokemon.forEach((poke) =>{
+    if(poke.starter === true){
+        console.log(poke.name)
+    }
+})
 
 /*
 Exercise 10
