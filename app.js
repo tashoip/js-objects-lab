@@ -200,8 +200,10 @@ This method should:
 
 Solve Exercise 14 here:
 */
-
-
+game.partyCount = () => {
+  game.party.push
+}
+ console.log(game.party);
 /*
 Exercise 15
 1. Now, complete gyms with a difficulty below 8. Reflect on how this is similar to or different from the previous gym exercises.
@@ -209,7 +211,11 @@ Exercise 15
 
 Solve Exercise 15 here:
 */
-
+game.gyms.forEach(gym=>{
+  if(gym.difficulty < 8){
+      gym.completed === true
+  }
+})
 
 /*
 Exercise 16
