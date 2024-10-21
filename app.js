@@ -151,6 +151,7 @@ Also, log the `game.items` array to confirm that the pokeball quantity is being 
 Solve Exercise 11 here:
 */
 
+// game.catchPokemon
 
 /*
 Exercise 12
@@ -160,7 +161,11 @@ Exercise 12
 Solve Exercise 12 here:
 */
 
-
+game.gyms.forEach(gym=>{
+    if(gym.difficulty < 6){
+        gym.completed === true
+    }
+})
 /*
 Exercise 13
 1. Create a `gymStatus` method in `game` to tally completed and incomplete gyms.
