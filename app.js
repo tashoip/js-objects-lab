@@ -89,6 +89,11 @@ More Hints: The existing starter Pokemon will be *replaced* in your party with t
 Solve Exercise 7 here:
 */
 
+game.party.splice(0, 1, pokemon[1])
+game.party.splice(1, 1, pokemon[13])
+game.party.splice(2 , 1, pokemon[34])
+game.party.splice(3, 1, pokemon[50])
+console.log(game.party)
 /*
 Exercise 8
 1. Print the name of each Pokémon in your party.
